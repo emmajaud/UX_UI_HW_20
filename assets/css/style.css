@@ -439,7 +439,43 @@ section {
   text-transform: uppercase;
 }
 
+.section-title-black h1 {
+  text-align: left;
+  font: normal normal bold 48px/50px Oswald;
+  letter-spacing: 0;
+  color: black;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.section-title-white h1 {
+  text-align: left;
+  font: normal normal bold 48px/50px Oswald;
+  letter-spacing: 0;
+  color: white;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
 .section-title-black h2 {
+  text-align: left;
+  font: normal normal bold 32px/35px Oswald;
+  letter-spacing: 0;
+  color: black;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.section-title-white h2 {
+  text-align: left;
+  font: normal normal bold 32px/35px Oswald;
+  letter-spacing: 0;
+  color: white;
+  opacity: 1;
+  text-transform: none;
+}
+
+.section-title-black h3 {
   text-align: left;
   font: normal normal normal 20px/27px Nunito;
   letter-spacing: 0;
@@ -448,12 +484,13 @@ section {
   text-transform: none;
 }
 
-.section-title-white h2 {
+.section-title-white h3 {
   text-align: left;
   font: normal normal normal 20px/27px Nunito;
   letter-spacing: 0;
   color: white;
   opacity: 1;
+  text-transform: none;
 }
 
 .section-title-black h6 {
@@ -498,6 +535,11 @@ section {
 .section-title p {
   margin-bottom: 0;
 }*/
+
+#section-2 img {
+  max-width: 1000px;
+  margin-top: 15%;
+}
 
 
 /*--------------------------------------------------------------
