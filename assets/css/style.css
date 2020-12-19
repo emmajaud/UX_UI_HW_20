@@ -446,6 +446,7 @@ section {
   color: black;
   opacity: 1;
   text-transform: uppercase;
+  
 }
 
 .section-title-white h1 {
@@ -455,6 +456,7 @@ section {
   color: white;
   opacity: 1;
   text-transform: uppercase;
+  margin: 0 0 40px;
 }
 
 .section-title-black h2 {
@@ -464,6 +466,7 @@ section {
   color: black;
   opacity: 1;
   text-transform: uppercase;
+  margin: 0 0 16px;
 }
 
 .section-title-white h2 {
@@ -472,7 +475,8 @@ section {
   letter-spacing: 0;
   color: white;
   opacity: 1;
-  text-transform: none;
+  text-transform: uppercase;
+  margin: 0 0 16px;
 }
 
 .section-title-black h3 {
@@ -482,6 +486,7 @@ section {
   color: black;
   opacity: 1;
   text-transform: none;
+  margin: 0 0 32px;
 }
 
 .section-title-white h3 {
@@ -491,6 +496,7 @@ section {
   color: white;
   opacity: 1;
   text-transform: none;
+  margin: 0 0 32px;
 }
 
 .section-title-black h6 {
@@ -539,6 +545,11 @@ section {
 #section-2 img {
   max-width: 1000px;
   margin-top: 15%;
+}
+
+.center {
+  display: block;
+  margin: auto;
 }
 
 
