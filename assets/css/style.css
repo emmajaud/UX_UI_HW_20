@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #3498db;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .nav-menu .drop-down ul {
@@ -587,10 +587,13 @@ section {
 #footer a {
   display: flex;
   padding: 0 28px;
-  margin-right: 2%;
   font-family: 'Oswald', sans-serif;
   font-size: 22px;
   color: #000000;
   text-decoration: none;
 }
 
+#footer a:hover, #footer .active > a {
+  color: #3498db;
+  text-decoration: underline;
+}
