@@ -516,6 +516,16 @@ section {
   opacity: 1;
 }
 
+.img-title {
+  text-align: center;
+  font: normal normal bold 22px/24px Oswald;
+  letter-spacing: 0;
+  color: white;
+  opacity: 1;
+  margin-bottom: 16px;
+  text-transform: none;
+}
+
 /*.section-title h2::before {
   content: '';
   position: absolute;
