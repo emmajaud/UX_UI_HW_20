@@ -596,4 +596,5 @@ section {
 #footer a:hover, #footer .active > a {
   color: #3498db;
   text-decoration: underline;
+  
 }
